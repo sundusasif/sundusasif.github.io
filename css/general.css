@@ -122,7 +122,7 @@ display: block;
 	}
 
 
-.specials-block {
+.portfolio-name {
 
 	text-align: center;
 	margin: 15px auto 10px auto;
@@ -131,7 +131,7 @@ display: block;
 	
 }
 
-.specials-block h2 {
+.portfolio-name h2 {
 	
 	
 	letter-spacing: 2px;
@@ -141,7 +141,7 @@ display: block;
 	border-bottom: 1px solid #666;
 	}
 
-.specials-list {
+.portfolio {
 	
 	margin: 15px -10px;
 	padding-bottom: 20px;
@@ -150,7 +150,7 @@ display: block;
 	text-align: center;
 }
 
-.specials-list li {
+.portfolio li {
 
 	
 	display: inline-block;
@@ -160,14 +160,14 @@ display: block;
 	
 }
 
-.specials-list figure {
+.portfolio figure {
 	display: block;
 	margin: 0;
 	padding: 10px;
 
 }
 
-.specials-list img {
+.portfolio img {
 	display: block;
 	width: 100%;
 
@@ -176,12 +176,14 @@ display: block;
 
 
 figcaption {
-	padding: 2%;
-	font-size: 0.8em;
+	padding: 15px;
+	font-size: 0.8rem;
 	min-width: 95px;
 	text-align: center;
-	color: #97D4CD;
+	color: #000;
 
+	font-style: bold;
+	letter-spacing: 1px;
 	
 	
 }
@@ -301,7 +303,7 @@ font-size: 0.95em;
 		}
 	
 
-.specials-list li {
+.portfolio li {
 		width: 30%;
 	}
 	
