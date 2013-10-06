@@ -1,0 +1,423 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+		background-image: url(../img/white_bg.png);
+		background-repeat: repeat;
+		min-width: 240px;
+		font-size: 100%;
+		background-color: #FFF;
+		width: 100%;
+		font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (min-width:100em) {
+	
+html{
+	font-size: 120%;
+		
+}
+
+
+	
+}
+
+
+img {
+	display: block;
+	width: 100%;
+	
+}
+	
+p {
+	
+	padding: 0% 5% 2% 5%;
+	font-size: 0.8em;
+}
+
+
+h2 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1.3em;
+	padding: 2% 5% 1% 5%;
+	font-weigth: regular;
+}
+
+
+.logo {
+	
+display: block;
+  margin: 3% auto 1% auto;
+  vertical-align: bottom;
+  max-width: 120px;
+ 
+	
+}
+
+
+.longlogo {
+	
+	display: none;
+	}
+
+
+
+
+.nav {
+
+
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+	
+	
+}	
+
+	
+.nav li {
+	display: inline;
+	border: 0;
+	margin: 6%;
+	
+	
+}
+
+
+#twitter img{
+	display: inline-block;
+	width: 30px;	
+	}
+
+
+
+
+
+/*
+.logo-name {
+	   background-color: #900;
+	  margin: 1% auto 1% auto;
+	  vertical-align: bottom;
+	  text-align: center;
+}*/
+
+
+.billboard1 img {
+	width:100%;
+	margin: 0 auto;
+	margin-top: -0.5%;
+
+	}
+	
+	
+.billboard2 {
+	
+	display:none;
+
+	}
+
+.bucket {
+	
+	padding-bottom: 3%;
+	
+	}
+
+
+
+.portfolio-name {
+
+	text-align: center;
+	margin: 15px auto 10px auto;
+	width: 90%;
+	
+	
+}
+
+.portfolio-name h2 {
+	
+	
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	padding: 20px;
+	font-size: 1.1rem;
+	border-bottom: 1px solid #666;
+	}
+
+.portfolio {
+	
+	margin: 15px -10px;
+	padding-bottom: 20px;
+
+	list-style-type: none;
+	text-align: center;
+}
+
+.portfolio li {
+
+	
+	display: inline-block;
+	width: 80%;
+	margin-bottom: 20px;
+	min-width: 120px;
+	
+}
+
+.portfolio figure {
+	display: block;
+	margin: 0;
+	padding: 10px;
+
+}
+
+.portfolio img {
+	display: block;
+	width: 100%;
+
+}
+
+
+
+figcaption {
+	padding: 15px;
+	font-size: 0.8rem;
+	min-width: 95px;
+	text-align: center;
+	color: #000;
+
+	font-style: bold;
+	letter-spacing: 1px;
+	
+	
+}
+
+
+
+
+footer {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	letter-spacing:2px;
+	background-color: #000;
+	padding: 1em 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	color: #fff;
+	min-width: 270px;
+	
+	
+	}
+
+
+footer ul {
+	list-style: none;
+	padding: 0;
+
+}
+
+footer li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 1em;
+
+}
+	
+footer p {
+	
+	padding: 0%;
+	
+}
+	
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+	
+	}
+footer a:hover {
+	color: #999;
+
+ }
+		
+a.tel { 
+color: #fff;
+font-size: 0.9em;
+
+
+ }
+
+
+@media only screen and (min-width: 32em) {
+
+
+.logo { 
+  max-width: 150px;
+	
+}
+
+.billboard1 {
+display: none;
+	}
+
+.billboard2 {
+	
+	display: inline;
+}
+
+
+p {
+	
+font-size: 0.95em;	
+	
+	}
+
+
+
+}
+
+@media only screen and (min-width: 47em) {
+
+
+.bucket {
+	
+	overflow: hidden;
+	width: 80%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin: auto;
+	
+	}
+	
+	
+.shift_left {
+	
+	text-align: left;
+			float:left;
+			max-width:49%;
+		}
+		
+		
+
+.shift_right {
+			text-align: left;
+			
+			float:right;
+			max-width:49%;
+		}
+	
+
+.portfolio li {
+		width: 30%;
+	}
+	
+}	
+
+
+
+
+@media only screen and (min-width:63em) {
+
+
+.longlogo {
+	
+	display: block;
+	position:absolute;
+	top: -50px;
+	left: 20px;
+	
+  margin: 3% auto 1% auto;
+  vertical-align: bottom;
+  max-width: 160px;
+	}
+
+.logo {
+	
+	display: none;
+	/*position:absolute;
+	top: -50px;
+	left: 20px;*/
+	
+	
+	/*float: left;
+	padding-left: 1em;
+	padding-top: 2em;
+	margin-left: 5%;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: auto;*/
+	
+	
+	
+}
+	
+.nav {
+			
+			background-image:none;
+			float:right;
+			width: 50%;	
+			padding-top: 1rem;
+
+}
+			
+
+
+}
+
+
+@media only screen and (min-width:90em) {
+
+
+.longlogo {
+	max-width: 180px;
+	
+	}
+	
+figcaption {
+	
+	font-size: 0.9rem;
+		
+}
+
+	
+
+}
+
+@media only screen and (min-width:100em) {
+
+
+.longlogo {
+	max-width: 200px;
+	
+	}
+
+
+}
+
+
+@media only screen and (min-width:120em) {
+
+
+.longlogo {
+	top: -70px;
+	
+	}
+	
+
+
+
+}
+
+
+
+.clearfix: before,
+.clearfix: after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+	}
+	
+.clearfix {
+	*zoom: 1;
+	
+	
