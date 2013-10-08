@@ -1,5 +1,4 @@
+jekyll-portfolio
+================
 
-# Sundus
-
-
-graphic design portfolio website
+Converting portfolio website to jekyll website
