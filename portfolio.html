@@ -16,31 +16,19 @@ layout: default
 	 </div>
     
     <ol class="portfolio">
+    {% for artwork in site.pages %}
+    	{% if artwork.category == "artwork" %}
 			<li>	
 				<figure>
-					<img src="img/mens-cologne.jpg">
-					<figcaption>Power of Extra Light</figcaption>
-				</figure>
-					
-			</li>
-			
-			<li>
-				<figure>
-					<img src="img/restaurant.jpg">
-					<figcaption>Seafood Grill Branding</figcaption>
+					<img src="img/{{artwork.image}}">
+					<figcaption>{{artwork.content}}</figcaption>
 				</figure>
 				
 			</li>
-				
-			<li>
-				<figure>
-					<img src="img/slash.jpg">
-					<figcaption>Slash Rocks On</figcaption>
-				</figure>
-					
-			</li>
 			
 			
+			{% endif %}
+			{% endfor %}
 			
 			
 		</ol>
